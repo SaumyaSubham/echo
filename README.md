@@ -54,13 +54,14 @@ pip install -r requirements.txt
 ```
 
 3. Set up your environment variables:
+Purchase your OpenAI API for using GPT-4 and Whisper
 Create a .env file in the root directory with:
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
 
 4. Set up PostgreSQL database:
-- Create a database named 'echo_db'
+- Create a database 
 - Update DB_CONFIG in db_functions.py with your database credentials
 
 5. Run the application:
@@ -113,5 +114,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 Made with ❤️ by Saumya Subham Mishra
